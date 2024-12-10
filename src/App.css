@@ -1,0 +1,125 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f0f8; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #d5006d; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #d5006d; 
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background: #000;
+  transition: background-color 0.3s;
+}
+
+/* Style pour le bouton "Modifier" */
+button.edit {
+  background-color: #4caf50; 
+}
+
+button.edit:hover {
+  background-color: #388e3c; 
+}
+
+/* Style pour le bouton "Supprimer" */
+button.delete {
+  background-color: #f44336;
+}
+
+button.delete:hover {
+  background-color: #c62828; 
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #d5006d; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff; 
+}
+
+.todo-item input[type="text"] {
+  flex: 1;
+  border: 1px solid #d5006d; 
+  border-radius: 5px;
+  margin-right: 10px;
+}
